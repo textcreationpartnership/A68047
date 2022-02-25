@@ -1,0 +1,345 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Figure of three, or, A Patterne of good counsell gathered for the delight of the well disposed.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1636</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 21 KB of XML-encoded text transcribed from 11 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A68047</idno>
+            <idno type="STC">STC 10865.5</idno>
+            <idno type="STC">ESTC S883</idno>
+            <idno type="EEBO-CITATION">22922000</idno>
+            <idno type="OCLC">ocm 22922000</idno>
+            <idno type="VID">2041</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A68047)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 2041)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1777:28)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Figure of three, or, A Patterne of good counsell gathered for the delight of the well disposed.</title>
+               </titleStmt>
+               <extent>[21] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for R.B. and are to be sold in S. Laurence lane at the signe of the Bible,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1636.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Signatures: A⁸(-A1) B⁴.</note>
+                  <note>Title in ornamental border.</note>
+                  <note>Imperfect: pages cropped and stained with print show-through and tightly bound with slight loss of print.</note>
+                  <note>Reproduction of original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Conduct of life --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-11</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2012-11</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:2041:1"/>
+            <pb facs="tcp:2041:1"/>
+            <p>THE FIGVRE of THREE: <hi>OR,</hi> A Patterne of good COVNSELL.</p>
+            <p>
+               <hi>Gathered for the Delight of the well diſpoſed.</hi>
+            </p>
+            <p>
+               <hi>LONDON:</hi> Printed for <hi>R. B.</hi> and are to be ſold in S. <hi>Laurence lane</hi> at the ſigne of the BIBLE, 1636.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:2041:2"/>
+            <pb facs="tcp:2041:2"/>
+            <head>THE FIGVRE OF THREE. <hi>OR,</hi> A PATTERNE OF GOOD COVNSELL.</head>
+            <p>
+               <seg rend="decorInit">T</seg>HE Knowledge of God is three-fold: Generall, Spe<g ref="char:EOLhyphen"/>ciall, and Singular. Gene<g ref="char:EOLhyphen"/>rall, as the Philoſophers: Speciall, as of the Chri<g ref="char:EOLhyphen"/>ſtians: and Singular, as of them that are bleſſed.</p>
+            <p>The ſweetneſſe of this Name JESVS con<g ref="char:EOLhyphen"/>ſiſts in three things: It is honey to the mouth, Melodie to the Eare, and joy to the Heart.</p>
+            <p>All men are buſied about one of theſe three <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hings: Honeſty, Profit, or Pleaſure.</p>
+            <p>Three abominable ſayings of all Epi<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ures: there is no pleaſure after death; a <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>engeance on him that careth for to mor<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ow: neither feare the latter day, nor wiſh <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>r it.</p>
+            <pb facs="tcp:2041:3"/>
+            <p>Three things doe ſtudy to unite with Pride: Power, <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>, Riches.</p>
+            <p>All Idols had their originall of three things, Superſtition, wicked Imagination and Flattery.</p>
+            <p>Three things to bee conſidered in the creation of the world: Who made it, by what he made it, wherefore he made it. If wee aske who made it? Why, there is no Author more excellent than God. If by what he made it? Why, no Art of more force, then the Word of God. If wherefore he made it? Why, no cauſe better than this: that good ſhould be created of God, who is good.</p>
+            <p>A good life conſiſt<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>th <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> theſe things: to eſchew evill, to doe goodneſſe and to perſevere in godlineſſe to the end.</p>
+            <p>Three benefits which we haue receive<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ought to move us daily and hourely t<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> giv<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> God great thankes: our Creation, ou<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Redemption, our Juſtification.</p>
+            <p>Three guides to Poverty: Gluttonie Sloth and Whoredome.</p>
+            <p>Hope is very good for three cauſes: I<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> is a remedy in adverſity, wiping tear<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> from the eyes; for Hope onely doth ſ<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ſtaine th<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>m whom injurious Fortune do<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <pb facs="tcp:2041:3"/> moſt oppreſſe: It nouriſheth life, promi<g ref="char:EOLhyphen"/>ſing better ſucceſſe to morrow: It leaveth not a man at his death, but exalteth his heart unto immortality.</p>
+            <p>Three things not any way to be tolera<g ref="char:EOLhyphen"/>ted: a long tongue in a Fooles head, a looſe life in a godly Profeſſor, a proud Heart and a beggers purſe.</p>
+            <p>Three things be never ſilent where they be: Money in the purſe, Wantonneſſe in the heart, Griefe in ſickneſſe.</p>
+            <p>Three ſorts of men are evermore very ſlothfull: they that ſit long at Dinner, they that lye long in Bed when they ſhould riſe to their labour; and they that come to the Church when the doores are ſhut up.</p>
+            <p>Three things which ſeldome can bee ſeene: a Broker that never made a lye, a Collier which never was blacke, and two Hils neere together without a valley.</p>
+            <p>A man is moſt grieved at three things eſpecially: To ſee the Adverſities of his Children, to heare of the loſſe of his goods, and to ſee the proſperity of his heavieſt enemies.</p>
+            <p>We ſhould not be carefull nor curious in three things: of good order in another
+<pb facs="tcp:2041:4"/> mans houſe, of the divine government of the Almighty, nor in the Counſels of great Eſtates.</p>
+            <p>Three cauſes why men love one another. One loveth, becauſe he is loved; another, becauſe he is advanced to honor: the third, for that he expects a benefit from the hand of him whom he ſo loveth.</p>
+            <p>Three proud creatures: a Knave ſitting in a Chaire; a que<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ne riding in a Chariot, a r<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>mping louſe in a ſcabbed Head.</p>
+            <p>Three ſorts of men are for the moſt part extreme babblers: Barbers, Bath-keepers, and Victuallers: and the reaſon is this, be<g ref="char:EOLhyphen"/>cauſe they deale with Mariners, Souldiers, and many other: calling themſelves tra<g ref="char:EOLhyphen"/>vellers, and are indeed extreame vagrant fellowes, reciting many ſtrange tales; whereby being as it were infected with their very talke, they become in the end great Babblers.</p>
+            <p>Three things neceſſary for the increaſe of Corne: good Seed, good ground, and Gods bleſſing.</p>
+            <p>Three things in the night which doe im<g ref="char:EOLhyphen"/>portune us to ſleepe: Darkneſſe, (for men deſirous to ſleepe, doe ſeeke for the darkeſt places;) Cold, (for in winter, men ſleepe
+<pb facs="tcp:2041:4"/> more ſoundly than in Summer; and thoſe that are cold of complexion, will ſleepe longer than others that are not:) Moy<g ref="char:EOLhyphen"/>ſture, for (according to all Philoſophy) moiſt vapours ariſe from the Stomacke, aſcend up into the braine, and provoke ſleepe.</p>
+            <p>Three things are ſayd to be very bitter: Gall, Griefe and Death.</p>
+            <p>Three things which Women can doe all at once: Spin, Weepe and Prattle.</p>
+            <p>Three things which for the uncertainty of that which may happen, men cannot ſafely give any counſell to undertake them: that is, a Wife, to travell by Sea, to follow the Warres.</p>
+            <p>Hope doth comfort three ſorts of men (of whom all others are paſt hope:) him whom the Phyſicians have given over; him that is bound and caſt into a deepe dungeon; and him that hath ſuffered ſhip<g ref="char:EOLhyphen"/>wracke, being toſſed with waves, yet hope perſwades to caſt his armes abroad.</p>
+            <p>Three things chiefly to be remembred: Gods ben fits, whereby we are ever to give thankes; our ſins, that we may be ſorry for them; and our death, that we may be care<g ref="char:EOLhyphen"/>full to live well.</p>
+            <pb facs="tcp:2041:5"/>
+            <p>Three things manifeſt GODS Judge<g ref="char:EOLhyphen"/>ments: Corporall puniſhment, the ſting of an evill Conſcience, the torments of Hell-fire.</p>
+            <p>There bee three things that the bodie is moſt addicted unto, and as it were covet<g ref="char:EOLhyphen"/>eth: Good cheare, Sleepe, and Merry or pleaſant talke and company.</p>
+            <p>Alſo there be three outward proper<g ref="char:EOLhyphen"/>ties of the Perſons in the Trinity: the Fa<g ref="char:EOLhyphen"/>ther ſends, and is not ſent: the Sonne is ſent to be made a ſacrifice: and the Holy Ghoſt is ſent to ſanctifie our mindes.</p>
+            <p>There be alſo in our Saviour Jeſus Chriſt three things worthily to be wondred at: the examples of his life, whereby he edified the envions: his words of wiſedome, whereby hee inſtructed the ignorant: and the marvels of his glory, whereby he did convert the unbeleevers.</p>
+            <p>Gold (as the Learned write thereof) hath three outragious properties: for firſt it is the Sna<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e for our ſoules; the hooke of Death, and the Bait of ſinne.</p>
+            <p>It is great gaine and alſo wonderfull pleaſure for theſe three ſorts of men to tell lyes: Poets, Painters, and Aſtronomers.</p>
+            <p>All men ſhould ſuffer theſe three evils
+<pb facs="tcp:2041:5"/> with patience: neceſſary evils, ſuch as can neither be altered, amended, or hindred: Accidentall evils, which have happened unto us by our owne evill courſes: and ſuch evils as we have juſtly deſerved.</p>
+            <p>As after men behold a Rainebow, they are put in mind of three ſpeciall things: of the anger of God, when he deſtroyed the world with water, whereof the <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> co<g ref="char:EOLunhyphen"/>lour is a witneſſe: of the mercy of God, who will never uſ<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> that puniſhment againe: o<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the latter judgement and burning of the world with fire, and that doth the red <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> fiery colour thereof repreſent.</p>
+            <p>Three things make moſt men very ſor<g ref="char:EOLunhyphen"/>rowfull: that he muſt needes die<g ref="char:punc">▪</g> that he knowes not the time or day when; and tha<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> after death, he knowes not where he ſhal bee.</p>
+            <p>Three things there be that are ſayd to undoe a man: to deferre and prolong hi<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> buſineſſe; to meddle with other mens mat<g ref="char:EOLunhyphen"/>ters; to reject the good Counſell of hi<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> friend.</p>
+            <p>Three things there be very neceſſary for a ſort of men called Fencers: a quicke eye, a ſtrong Arme, and a ſtout Heart.</p>
+            <p>All thoſe which are angrie make but
+<pb facs="tcp:2041:6"/> ſmall account of three ſpeciall things which ſhould be highly eſteemed: Old age, which ought to be reverenced: Affinity in kindred, and benefits paſt.</p>
+            <p>Humility is a vertue which doth chiefly comprehend three things: Firſt, it ac<g ref="char:EOLhyphen"/>knowledgeth her owne uncleanneſſe and infirmity, and doth feare God: Shee doth not deſire matters above her vocation, but keepeth her ſelfe within her bounds: Shee doth not deſpiſe others which are Gods inſtruments, but acknowledgeth Gods gift in them, knowing all labour is vaine, unleſſe God proſper it.</p>
+            <p>In three things conſiſteth the whole courſe of mans life: to be borne weeping, to live laughing, to die ſorrowfull and ſighing.</p>
+            <p>Three things make a man willing to brooke a ſervile life: Gaine, Love, and Covetouſneſſe.</p>
+            <p>Three things doe moſt of all haſten Death: Sorrow, Solitarineſſe, and Deſpe<g ref="char:EOLhyphen"/>ration.</p>
+            <p>There be alſo three kindes of gueſts which are the firſt at a banquet: Flies, dogs and Flatterers.</p>
+            <p>Three ſmall Beaſts are ſaid to bee moſt
+<pb facs="tcp:2041:6"/> full of wiſedome: the Bee, the E<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>met, the Spider.</p>
+            <p>Three things there be, that ma<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap> a man beguile: Eſſex miles, Kentiſh ſtiles, and Norfolke wiles.</p>
+            <p>Three things are required, that are as neceſſary to a man and his wife: Love in<g ref="char:EOLhyphen"/>wardly in the heart; Concord outwardly in dwelling together peaceably; both an outward and inward agreement to doe good workes.</p>
+            <p>There are three ſorts of Ignorance: Some is good, when we are ignorant of evill: ſome is evill, when we are ignorant of good: ſome is indifferent, which is nei<g ref="char:EOLhyphen"/>ther good nor evill.</p>
+            <p>There be three things that are very pro<g ref="char:EOLhyphen"/>per to Beauty: Firſt, it is fraile, and ſoon fadeth; many vices of the minde are cov<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>red with the vaile of Beauty: it bringeth commoditie to few, but unto many de<g ref="char:EOLhyphen"/>ſtruction.</p>
+            <p>Three things there are that make a Common-wealth happy: that is, a wiſe Prince, a wiſe Magiſtrate, and la<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap> up<g ref="char:EOLhyphen"/>right Judge.</p>
+            <p>Three commodities there are that fol<g ref="char:EOLhyphen"/>low Beauty: it winneth the praiſe<g ref="char:punc">▪</g>
+               <pb facs="tcp:2041:7"/> i<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> obtaineth favour, it getteth profit.</p>
+            <p>Three things there are neceſſary in a Flatterer: an impudent face, a ſtedfaſt co<g ref="char:EOLhyphen"/>lour, a changing voyce.</p>
+            <p>Three things are alwayes very good cheape: Earth, VVords and Lies.</p>
+            <p>There are three things eſpecially that being in a houſe, maides wiſh out of the houſe: an angrie Miſtreſſe, Smoake, and a broken or molten diſh.</p>
+            <p>There are likewiſe three ſorts of people worthy to be beloved: A loving VVife, a faithfull friend, and a truſtie ſervant.</p>
+            <p>There was a Plough-man that gave theſe three Leſſons unto his Sonne: To be in Lent holy, in Harveſt painefull, and at Chriſtmaſſe merrie.</p>
+            <p>Three things there are that doe make Patience to ſuffer any thing: God and Godlineſſe, Faith and Religion, Vertue and Law<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>.</p>
+            <p>There be three notable Ornaments be<g ref="char:EOLhyphen"/>longing to the houſe of <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Miniſter: an o<g ref="char:EOLhyphen"/>pen gate, a godly Houſhold or Family, and a good Library.</p>
+            <p>Truth is ſtronger than three ſtrong things: ſtrong VVine, a VVoman, or a mighty King.</p>
+            <pb facs="tcp:2041:7"/>
+            <p>The country life is miſtreſſe of three things: Frugality, Diligence, and Juſtice.</p>
+            <p>Three things are moſt neceſſary to the maintenance of our bodies. Sufficiency of meate to appeaſe the rage of hunger; clo<g ref="char:EOLhyphen"/>thing to cover the body, and expell away cold: Sleepe, which doth refreſh the wea<g ref="char:EOLhyphen"/>ried limbes with labour.</p>
+            <p>Three Mothers there are that bring forth three evill Daughters: Truth the Mother, Hatred the Daughter: Riches the Mother, Envie the Daughter: Fami<g ref="char:EOLhyphen"/>liarity the Mother, and Contempt the Daughter.</p>
+            <p>Three ſorts of people worthy to be ha<g ref="char:EOLhyphen"/>ted: A malicious VVoman, a faithleſſe Friend, and a proud Beggar.</p>
+            <p>There bee three things that can by no meanes be hidden: A VVhore in a cham<g ref="char:EOLhyphen"/>ber, a Spindle in a Sacke, Straw in the Shooes.</p>
+            <p>An Epitaph alwayes to be remembred of all mankind, when he doth behold the picture of Death in any place: O man thou beholdeſt what I am; thou knoweſt I have beene as thou art: then thinke with thy ſelfe what thou ſhalt be.</p>
+            <p>Three things make a man weary of <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+               <pb facs="tcp:2041:8"/> houſe, and oftentimes of his life: Smoake, Raine, and a curſt and dogged wife.</p>
+            <p>Three things require to bee attendant in a Chirurgion: a Hawkes eye, a Lyons heart, and a Ladies hand.</p>
+            <p>The invention of three things are ex<g ref="char:EOLhyphen"/>ceeding wonderfull: the Printing of Bookes, the invention of Guns and Gun<g ref="char:EOLhyphen"/>powder, and the making of glaſſes.</p>
+            <p>Three properties that belong to Epi<g ref="char:EOLhyphen"/>cures: they neither feare nor reverence God, and eſteeme all godlineſſe a mockery: they offer ſacrifice unto their guts, other God they know not: neither griefe nor feare can compell them to be carefull for the time to come, but for the preſent.</p>
+            <p>A Traveller hath theſe three points of wiſdome: To chooſe a faire way and a good horſe, a warme chamber for to lodge in, and an honeſt man for his Hoſt.</p>
+            <p>Three principall deſires amongſt friends: to have and enjoy wealth, to poſſeſſe honour: not to ſuffer neceſſity.</p>
+            <p>Three things worthy of conſideration in a Witneſſe: the nature, the condition, the life. The nature, that a witneſſe be a man, and not a woman; for women be divers and inconſtant in their reports: that he be
+<pb facs="tcp:2041:8"/> free, and not a bond-ſlave, for he will con<g ref="char:EOLhyphen"/>ceale a truth for feare of his maſters diſ<g ref="char:EOLhyphen"/>pleaſure: that hee be innocent, not infa<g ref="char:EOLhyphen"/>mous; for juſtice will not accompany wic<g ref="char:EOLhyphen"/>ked men.</p>
+            <p>Three things are good and neceſſary for every man: To underſtand well, to ſpeake better, to doe beſt of all.</p>
+            <p>There be three ſorts of people that will never be good: Old men without govern<g ref="char:EOLhyphen"/>ment, Young men without reverence, Maides without modeſty.</p>
+            <p>Three neuer failing weapons, where<g ref="char:EOLhyphen"/>with a man may expell the diuell: the Word of God, Faith in Chriſt Ieſus, fer<g ref="char:EOLhyphen"/>uent prayer.</p>
+            <p>Three things chiefly to be remembred Gods benefits that we may render thankes: our ſins, that we may be ſorry for them; our death, that we may be carefull to live well.</p>
+            <p>Three things are called excellent Go<g ref="char:EOLhyphen"/>vernours; God governeth the world, the mind governeth the ſoule, wiſedome doth rule and governe the felicity of this life.</p>
+            <p>Three things not to be truſted in: the Heeles of a wilde Horſe, the teeth of a mad Dog, the Vowes of a ſtrumpet.</p>
+            <p>Three things which are ſayd to whet the
+<pb facs="tcp:2041:9"/> eye-ſight: to view Fountaines of water, to looke upon greene things, to behold a mans face in a looking-glaſſe.</p>
+            <p>Three things, though they bee very good, yet they pleaſe not every body: Raine, though it doe much good to the earth: Vpright government: the labours of Learned men.</p>
+            <p>There be three cauſes that make men to ſpeake loud: Firſt, when they are farre off unto whom they would ſpeake, when they talke to one that is deafe, when they are inraged with anger.</p>
+            <p>Three things which our Anceſtours have ever abhorred: a reconciled Enemy, meate twiſe ſodden, and a woman with a Beard.</p>
+            <p>Women deſire three things principally: to be gorgeouſly apparelled, to be eſteem<g ref="char:EOLhyphen"/>ed, and to goe where they liſt.</p>
+            <p>God made three places for three ſeverall purpoſes: Heaven for the good, Hell for the wicked, Earth for both.</p>
+            <p>Beliefe is of three ſorts: to beleeve that there is a God, is of knowledge: to beleeve God is to conſent to his truth: to beleeve in God, is to have true confidence in his mercy.</p>
+            <p>Whoſoever will retaine a Lawyer, and
+<pb facs="tcp:2041:9"/> lawfully ſeeke his owne right, muſt be fur<g ref="char:EOLhyphen"/>niſhed with theſe three pockets: In the firſt pocket hee muſt have his Declaration and Certificate, wherewith hee may ſhew his Right: in the ſecond pocket he muſt have ſtore of Red-ruddockes: in the third poc<g ref="char:EOLhyphen"/>ket hee muſt have patience, although the Law proceed againſt him.</p>
+            <p>Three things will not prove well with<g ref="char:EOLhyphen"/>out beating: a Walnut-tree, an Aſſe, and a Woman.</p>
+            <p>Three trades of life that may travell without Paſports: Pedlers, Tinkers, and Minſtrels.</p>
+            <p>Three things bite ſore: an old Dog, an hungry Flye, and an unconſcionable V<g ref="char:EOLhyphen"/>ſurer.</p>
+            <p>The Holy Ghoſt doth governe three things in every godly perſon: the mind, the heart, and the wil: it doth inlighten the minde with the light of the holy Word, it doth kindle the heart, that it may conceive what it is that beſt pleaſeth God: It doth move the will, to be willing to doe what<g ref="char:EOLhyphen"/>ſoever God willeth in his VVord.</p>
+            <p>The Holy Ghoſt doth confirme three things in us: Faith, Hope and Love.</p>
+            <p>The proud Heart is deſtitute of three
+<pb facs="tcp:2041:10"/> good things: It is hardned, and wanteth Godlineſſe: it is void of Contrition, it is dry, wanting the deaw of ſpirituall grace.</p>
+            <p>A guilty Conſcience wo<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>eth in man three miracles: It maketh the heaven and the earth, though never ſo ſpatious, to be narrower than a mouſe hole: It cauſeth e<g ref="char:EOLhyphen"/>ven the ſtrongeſt heart to be afraid at the wagging of every leafe: It ſtirreth up it ſelfe like a thouſand witneſſes.</p>
+            <p>A man muſt keepe his minde from theſe three things: Anger, becauſe it fretteth; Hatred, becauſe it conſumeth; Glory, be<g ref="char:EOLhyphen"/>cauſe it puffeth up with pride.</p>
+            <p>The Judge muſt have reſpect into three things; the law, the guilty, and the people.</p>
+            <p>A gentle mind is of three ſorts; milde to ſuffer, ready to forgive, willing to helpe.</p>
+            <p>A VViſe man repenteth theſe three things; That he hath gone by Sea when he might have gone by land, that he hath re<g ref="char:EOLhyphen"/>vealed his ſecrets; that he hath let one day paſſe, wherein he hath not done ſome good and vertuous thing.</p>
+            <p>Three ſorts of women to be forſaken; an old woman wanton, a Maide full of Sleepe, and a wife full of words.</p>
+            <p>Three things to be pittied: a houſe full
+<pb facs="tcp:2041:10"/> of motherleſſe children, an honeſt man wrongfully accuſed, an old man left com<g ref="char:EOLhyphen"/>fortleſſe.</p>
+            <p>Three kind of people be much ſpited at, but daily proſper: that is, the informing Lawyer, the uſuring Broker, and the mer<g ref="char:EOLhyphen"/>cileſſe Sergeant.</p>
+            <p>Three kinde of people fill Cities and Townes full of Vanity: that is the Poet, the Player, and the Pander.</p>
+            <p>Three kind of people be ſeldome with<g ref="char:EOLhyphen"/>out company: that is the Vſurer, without riotous gentlemen, the faire woman with<g ref="char:EOLhyphen"/>out wanton cuſtomers, and the liberall man without ſhameleſſe beggers.</p>
+            <p>Three pleaſures may be well baniſh'd out of cities: that is, common bowling allies, publike ſtage-plaies, and begging muſicke.</p>
+            <p>There be three kinde of people that be counted mad, <hi>(viz.)</hi> a rich VViddow that marrieth an unthrifty Courtier, an old man, to pleaſe his child, makes himſelfe a begger, and he that gives truſt to a drunken woman.</p>
+            <p>There bee three Plagues none worſe: that is, to marry a foole, to hire a ſlut, and to ſerve a knave.</p>
+            <p>
+               <hi>Ariſtotle</hi> affirmeth, that a man can never
+<pb facs="tcp:2041:11"/> yeeld thanks enough unto three: our God, our parents, and our maſters.</p>
+            <p>Three vertues worthy commendations in a woman: Sobriety, ſilence, and cha<g ref="char:EOLhyphen"/>ſtity.</p>
+            <p>VVee ſalute three ſorts of people where we meete them: our betters of neceſſity, our equals of our owne will, our inferi<g ref="char:EOLhyphen"/>ours of our meere vertue.</p>
+            <p>Gluttony doth hurt many three manner of wayes: It maketh the body deformed: it breedeth infirmities, it cauſeth them to be inſatiable like brute beaſts.</p>
+            <p>Three kinds of people are jealous: ſuch as be evill of condition themſelves, ſuch as have faire wives, old men that marry young girles.</p>
+            <p>There are three trades which are chiefly maintained in moſt places: that is, Bakers, Brewers, and Butchers.</p>
+            <p>Three kinde of things can never be ſup<g ref="char:EOLhyphen"/>preſſed: that is, the pride of women, the folly of young Heires, and the Jealouſie of old wives.</p>
+            <p>Labour is good for three things: It oc<g ref="char:EOLhyphen"/>cupieth the minde, and drives away fan<g ref="char:EOLhyphen"/>taſies: it helpeth the body in digeſtion, i<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> increaſeth the ſubſtance.</p>
+            <pb facs="tcp:2041:11"/>
+            <p>It is not good to brag of three things: that thou haſt good wine, a faire wife, and plenty of money.</p>
+            <p>A man may doe three things without teaching: laugh, weepe, and ſleepe.</p>
+            <p>Men may lawfully fight in defence of theſe three: the Law, the Prince, and the Countrey.</p>
+         </div>
+         <trailer>FJNJS.</trailer>
+      </body>
+   </text>
+</TEI>
